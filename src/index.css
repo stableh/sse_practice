@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  overflow-y: auto;
+  font-family: 'Fira Sans', system-ui, sans-serif;
+  line-height: 1.4;
+}
+
+code,
+pre {
+  font-family: 'Fira Code', ui-monospace, monospace;
+}
